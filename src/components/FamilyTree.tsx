@@ -45,23 +45,22 @@ function toTreeNodes(nodes: PersonNode[] | undefined): TreeNode[] {
   })
 }
 
-export default function FamilyTree() {
+export default function FamilyTree({ yamlPath = '../../data/teneyck-tree.yaml' }: { yamlPath?: string }) {
   const [, setYamlText] = useState<string>('')
   const [data, setData] = useState<FamilyYaml | null>(null)
   const [loading, setLoading] = useState(false)
   const toastRef = useRef<Toast>(null)
 
   useEffect(() => {
-    // Load default YAML on first mount
-    loadDefault()
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [])
+    // Load YAML when component mounts or when yamlPath changes
+    loadFromPath(yamlPath)
+  }, [yamlPath])
 
-  async function loadDefault() {
+  async function loadFromPath(path: string) {
     try {
       setLoading(true)
       // Resolve the YAML file as an asset URL and fetch its contents at runtime.
-      const url = new URL('../../data/teneyck-tree.yaml', import.meta.url)
+      const url = new URL(path, import.meta.url)
       const res = await fetch(url.href)
       if (!res.ok) throw new Error(`Failed to fetch YAML: ${res.status} ${res.statusText}`)
       const text = await res.text()
@@ -87,7 +86,7 @@ export default function FamilyTree() {
           <h2 style={{ margin: 0 }}>{data?.title || 'Family Tree'}</h2>
         </div>
         <div className="col-12">
-          <Card title="Family Tree">
+          <Card>
             {loading && (
               <div className="p-d-flex p-ai-center p-jc-center" style={{ padding: '2rem' }}>
                 <ProgressSpinner />
