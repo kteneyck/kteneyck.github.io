@@ -98,6 +98,8 @@ export default function FamilyTree({ yamlPath = '../../data/teneyck-tree.yaml' }
                 filter
                 filterMode="lenient"
                 className="family-tree"
+                expandIcon="pi pi-chevron-right"
+                collapseIcon="pi pi-chevron-down"
                 // collapsed by default; Tree handles state internally if keys undefined
                 // we can set expandedKeys if needed later
               />

@@ -49,7 +49,8 @@ children:
                                         isSpouse: true
                                         birthYear: 1891
                                         deathYear: 1970
-                      - name: "6 Edward Hanlon TenEyck, Jr."
+                      - name: "Edward Hanlon TenEyck, Jr."
+                        generation: 6
                         birthYear: 1923
                         deathYear: 2020
                         children:
@@ -76,10 +77,23 @@ children:
                                         generation: 8
                                         birthYear: 1988
                                         deathYear: null
+                                        children:
+                                          - name: Laura McLaine
+                                            isSpouse: true
+                                            birthYear: 1984
+                                            deathYear: null
                                       - name: Kaitlyn I. TenEyck
                                         generation: 8
                                         birthYear: 1994
                                         deathYear: null
+                                        children:
+                                          - name: Doug Kugler
+                                            isSpouse: true
+                                            birthYear: 1988
+                                            deathYear: null
+                                          - name: Everett Kugler
+                                            birthYear: 2023
+                                            deathYear: null
                           - name: Harry TenEyck
                             generation: 5
                             birthYear: 1890
