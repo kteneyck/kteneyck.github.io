@@ -46,7 +46,7 @@ function toTreeNodes(nodes: PersonNode[] | undefined): TreeNode[] {
 }
 
 export default function FamilyTree() {
-  const [yamlText, setYamlText] = useState<string>('')
+  const [, setYamlText] = useState<string>('')
   const [data, setData] = useState<FamilyYaml | null>(null)
   const [loading, setLoading] = useState(false)
   const toastRef = useRef<Toast>(null)
