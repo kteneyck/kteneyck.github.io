@@ -1,0 +1,111 @@
+title: Descendants of Coenraet TenEyck
+children:
+  - name: Coenraet TenEyck
+    generation: 1
+    birthYear: 1617
+    deathYear: 1686
+    children:
+      - name: Maria Boelle
+        isSpouse: true
+        birthYear: null
+        deathYear: 1681
+        children:
+          - name: Jacob TenEyck
+            generation: 2
+            birthYear: null
+            deathYear: 1693
+            children:
+              - name: Geerrtruy Coeymans
+                isSpouse: true
+                birthYear: 1654
+                deathYear: null
+                children:
+                  - name: Coenraet TenEyck
+                    generation: 3
+                    birthYear: 1678
+                    deathYear: 1753
+                    children:
+                      - name: Goertj VanSchaick
+                        isSpouse: true
+                        birthYear: 1687
+                        deathYear: 1736
+                        children:
+                          - name: Jacob C. TenEyck
+                            generation: 4
+                            birthYear: 1705
+                            deathYear: 1793
+                            children:
+                              - name: Cathakyna Cuyler
+                                isSpouse: true
+                                birthYear: 1709
+                                deathYear: 1790
+                                children:
+                                  - name: Coenraet J. TenEyck
+                                    generation: 5
+                                    birthYear: 1741
+                                    deathYear: 1832
+                                    children:
+                                      - name: Charlotte TenEyck
+                                        isSpouse: true
+                                        children:
+                                          - name: Anna Margretta TenEyck
+                                            generation: 6
+                                            birthYear: 1770
+                                            deathYear: null
+                                          - name: Catherine TenEyck
+                                            generation: 6
+                                            birthYear: 1773
+                                            deathYear: 1794
+                                            children:
+                                              - name: "John Beekman, Jr."
+                                                isSpouse: true
+                                          - name: Maria TenEyck
+                                            generation: 6
+                                            birthYear: 1775
+                                            deathYear: 1860
+                                            children:
+                                              - name: Jonas Bronck
+                                                isSpouse: true
+                                                birthYear: 1764
+                                                deathYear: 1823
+                                          - name: Jacob C. TenEyck
+                                            generation: 6
+                                            birthYear: 1778
+                                            deathYear: 1819
+                                          - name: Sarah TenEyck
+                                            isSpouse: true
+                                            birthYear: 1783
+                                            deathYear: 1855
+                                            children:
+                                              - name: Anthony J. TenEyck
+                                                generation: 7
+                                                birthYear: 1805
+                                                deathYear: 1846
+                                                children:
+                                                  - name: Cornelia VanDerPoel
+                                                    isSpouse: true
+                                                    birthYear: null
+                                                    deathYear: 1879
+                                                    children:
+                                                      - name: Barent A. TenEyck
+                                                        generation: 8
+                                                        birthYear: 1842
+                                                        deathYear: 1929
+                                                        children:
+                                                          - name: Henrietta Wynkoop
+                                                            isSpouse: true
+                                                            birthYear: 1846
+                                                            deathYear: 1929
+                                              - name: Coenraet TenEyck
+                                                generation: 7
+                                              - name: Barent TenEyck
+                                                generation: 7
+                                              - name: Sarah TenEyck
+                                                generation: 7
+                                                children:
+                                                  - name: Peter Ray
+                                                    isSpouse: true
+                                          - name: Andries TenEyck
+                                            generation: 6
+                                            birthYear: 1780
+                                            deathYear: 1854
