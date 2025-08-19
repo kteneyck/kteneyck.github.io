@@ -1,6 +1,7 @@
 import './App.css'
 import FamilyTree from "./components/FamilyTree.tsx";
 import { TabView, TabPanel } from 'primereact/tabview'
+import "primereact/resources/themes/lara-dark-cyan/theme.css";
 
 function App() {
   return (
